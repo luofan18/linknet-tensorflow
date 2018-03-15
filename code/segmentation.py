@@ -266,7 +266,7 @@ label_channels = 20
 input_dims = [512, 1024]
 batch_size = 16
 
-learning_rate = 0.1
+learning_rate = 0.01
 learning_rate_decay = 0.1
 lr_decay_every = 60
 tf.reset_default_graph()
