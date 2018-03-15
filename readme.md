@@ -9,7 +9,7 @@
    The weights will be automatically loaded into respective layers in the beginning of training
 
 #### Instructions
-Run `python segmentation` to train a network, 5 latest checkpoint will be kept during train
+Run `python segmentation` to train a network, 5 latest checkpoint will be kept during train  
 If you prefer using Jupyter Notebook, you may look into `segmentation.py`
 
 #### Reference
