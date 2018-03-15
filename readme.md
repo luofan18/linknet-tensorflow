@@ -9,9 +9,12 @@
    The weights will be automatically loaded into respective layers in the beginning of training
 
 #### Instructions
-All scripts are in `code/`  
-Run `python segmentation` to train a network, 5 latest checkpoint will be kept during train  
-If you prefer using Jupyter Notebook, you may look into `segmentation.py`
+1. This example runs on cityscapes dataset, and data are prepared used official scripts. Link to cityscapes dataset https://www.cityscapes-dataset.com/
+2. Put your data into `data/`   
+3. All scripts are in `code/`  
+The label mapping is in `labels.py`
+Run `python segmentation.py` to train a network, 5 latest checkpoint will be kept during train  
+If you prefer using Jupyter Notebook, you may look into `segmentation.ipynb`
 
 #### Reference
 
